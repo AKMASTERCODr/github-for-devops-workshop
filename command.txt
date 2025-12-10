@@ -1,0 +1,16 @@
+  2 git init
+   3 git status
+   4 git status
+   5 git add testing.py
+   6 git add python.py
+   7 git status
+   8 git commit -m "added stage"
+   9 git config --global user.email "ayushkumarak0607@gmail.com"
+  10 git commit -m "added to tracked"
+  11 git status
+  12 rm python.py
+  13 git status
+  14 git restore python.py
+  15 rm python.py
+  16 git restore python.py
+  
